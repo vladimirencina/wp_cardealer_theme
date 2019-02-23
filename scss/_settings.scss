@@ -1,0 +1,73 @@
+// 00. General Theme Colors
+$primary-theme-color				: #ff600a;
+$secondary-theme-color				: #7b7b7b;
+
+$background-primary-color			: #ffffff;
+$background-secondary-color			: #f4f4f4;
+
+$color-red							: #ff600a;
+
+
+// 01. Typography
+$paragraph-font-size				: 14px;
+$paragraph-offset-bottom			: 1.5em;
+$paragraph-lineheight				: 1.6em;
+
+$h1-font-size						: 35px;
+$h1-font-weight						: 400;
+$h1-font-family						: 'Roboto Condensed', sans-serif;
+$h1-font-color						: #232527;
+$h1-font-color-link					: $primary-theme-color;
+$h1-font-color-hover				: #7d7d7d;
+
+$h2-font-size						: 30px;
+$h2-font-weight						: 400;
+$h2-font-family						: 'Roboto Condensed', sans-serif;
+$h2-font-color						: #232527;
+$h2-font-color-link					: $primary-theme-color;
+$h2-font-color-hover				: #7d7d7d;
+
+$h3-font-size						: 22px;
+$h3-font-weight						: 400;
+$h3-font-family						: 'Roboto Condensed', sans-serif;
+$h3-font-color						: #7f858c;
+$h3-font-color-link					: $primary-theme-color;
+$h3-font-color-hover				: #7d7d7d;
+
+$h4-font-size						: 18px;
+$h4-font-weight						: 400;
+$h4-font-family						: 'Roboto Condensed', sans-serif;
+$h4-font-color						: #232527;
+$h4-font-color-link					: $primary-theme-color;
+$h4-font-color-hover				: #7d7d7d;
+
+$h5-font-size						: 16px;
+$h5-font-weight						: 400;
+$h5-font-family						: 'Roboto Condensed', sans-serif;
+$h5-font-color						: #232527;
+$h5-font-color-link					: $primary-theme-color;
+$h5-font-color-hover				: #7d7d7d;
+
+$h6-font-size						: 14px;
+$h6-font-weight						: 400;
+$h6-font-family						: 'Roboto Condensed', sans-serif;
+$h6-font-color						: #232527;
+$h6-font-color-link					: $primary-theme-color;
+$h6-font-color-hover				: #7d7d7d;
+
+// 02. Ordered / Unordered List Styles
+$list-font-color-1					: $primary-theme-color;
+$list-font-color-2					: #7b7b7b;
+$list-icon-color-1					: #bfc2c5;
+
+// 03. Blockquotes
+$blockquote-font-color-1			: $primary-theme-color;
+$blockquote-font-weight				: 700;
+$blockquote-font-style				: italic;
+$blockquote-brd-color-1				: $primary-theme-color;
+
+// 04. Dropcaps
+$dropcap-font-color-1				: #D9DADB;
+$dropcap-font-color-2				: #ffffff;
+$dropcap-font-weight				: 700;
+$dropcap-font-size					: 38px;

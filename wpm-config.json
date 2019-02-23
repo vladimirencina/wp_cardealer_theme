@@ -1,0 +1,22 @@
+{
+  "widgets": {
+    "thememakers_app_cardealer_quicksearch": {
+      "show_location0": {},
+      "show_location1": {},
+      "show_location2": {},
+      "selected_location0": {},
+      "selected_location1": {},
+      "show_condition": {},
+      "show_makes": {},
+      "show_price_range": {},
+      "show_year_range": {},
+      "show_mileage": {},
+      "show_fuel_type": {},
+      "show_transmission": {},
+      "show_body_type": {},
+      "show_doors_count": {},
+      "show_colors": {},
+      "show_advanced_options": {}
+    }
+  }
+}
