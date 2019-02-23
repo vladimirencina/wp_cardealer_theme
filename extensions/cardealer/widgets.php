@@ -9,7 +9,7 @@ class ThemeMakers_App_Cardealer_QuickSearch extends WP_Widget
 		$settings = array('classname' => __CLASS__, 'description' => esc_html__('CarDealer\'s search widget, helps to find cars', 'cardealer'));
 		parent::__construct(__CLASS__, esc_html__('TMM CarDealer Search', 'cardealer'), $settings);
 		$this->defaults = array(
-			'title' => esc_html__('Car Dealer Quick Search', 'cardealer'),
+			'title' => esc_html__('Buscador de vendedores', 'cardealer'),
 			'show_location0' => 'true',
 			'show_location1' => 'true',
 			'show_location2' => 'true',
@@ -61,10 +61,10 @@ class ThemeMakers_App_Cardealer_RecentCars extends WP_Widget
 	public $defaults;
 
 	function __construct() {
-		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Displays recently added cars', 'cardealer'));
-		parent::__construct(__CLASS__, esc_html__('TMM Recent Cars', 'cardealer'), $settings);
+		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Despliega los vehículos recien agregados', 'cardealer'));
+		parent::__construct(__CLASS__, esc_html__('Recientemente agregados', 'cardealer'), $settings);
 		$this->defaults = array(
-			'title' => esc_html__('Recent Cars', 'cardealer'),
+			'title' => esc_html__('Vehículos recientes', 'cardealer'),
 			'post_number' => 3,
 			'show_see_all_button' => 'true'
 		);
@@ -100,10 +100,10 @@ class ThemeMakers_App_Cardealer_FeaturedCars extends WP_Widget
 	public $defaults;
 
 	function __construct() {
-		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Displays featured cars', 'cardealer'));
+		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Mostrar vehículos', 'cardealer'));
 		parent::__construct(__CLASS__, esc_html__('TMM Featured Cars', 'cardealer'), $settings);
 		$this->defaults = array(
-			'title' => esc_html__('Featured Cars', 'cardealer'),
+			'title' => esc_html__('Vehículos', 'cardealer'),
 			'post_number' => 3,
 			'show_see_all_button' => 'true',
 			'order' => 'latest'
@@ -179,10 +179,10 @@ class ThemeMakers_App_Cardealer_CarStatistic extends WP_Widget
 	public $defaults;
 
 	function __construct() {
-		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Displays Car statistic. Only for user cars page.', 'cardealer'));
-		parent::__construct(__CLASS__, esc_html__('TMM Car Statistic', 'cardealer'), $settings);
+		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Despliega los vehículos del usuario', 'cardealer'));
+		parent::__construct(__CLASS__, esc_html__('Estadisticas', 'cardealer'), $settings);
 		$this->defaults = array(
-			'title' => esc_html__('My Car Garage', 'cardealer'),
+			'title' => esc_html__('Mis vehículos', 'cardealer'),
 		);
 	}
 
@@ -218,7 +218,7 @@ class ThemeMakers_App_Cardealer_DriveMyCars extends WP_Widget
 
 	function __construct() {
 		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Displays links to pages for managing cars added by user. Only for user cars page.', 'cardealer'));
-		parent::__construct(__CLASS__, esc_html__('TMM My Profile', 'cardealer'), $settings);
+		parent::__construct(__CLASS__, esc_html__('Mi perfil', 'cardealer'), $settings);
 		$this->defaults = array(
 			'show_links' => 'true',
 			'show_quick_statistic' => 'true',
@@ -258,7 +258,7 @@ class ThemeMakers_App_Cardealer_CarsCounter extends WP_Widget
 
 	function __construct() {
 		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Displays amount recently added cars.', 'cardealer'));
-		parent::__construct(__CLASS__, esc_html__('TMM Car Counter', 'cardealer'), $settings);
+		parent::__construct(__CLASS__, esc_html__('Contador de vehículos', 'cardealer'), $settings);
 		$this->defaults = array(
 			'title' => esc_html__('Recently Added Cars', 'cardealer'),
 			'show_last_hour_cell' => 'true',
@@ -300,7 +300,7 @@ class ThemeMakers_App_Cardealer_DealerContacts extends WP_Widget
 
 	function __construct() {
 		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Displays current dealer contact info. Only for single car page.', 'cardealer'));
-		parent::__construct(__CLASS__, esc_html__('TMM Car Dealers Contacts', 'cardealer'), $settings);
+		parent::__construct(__CLASS__, esc_html__('Contacto vendedores', 'cardealer'), $settings);
 		$this->defaults = array(
 			'title' => esc_html__('Dealers Contacts', 'cardealer'),
 			'show_dealers_name' => 'true',
@@ -345,10 +345,10 @@ class ThemeMakers_App_Cardealer_DealersCars extends WP_Widget
 	public $defaults;
 
 	function __construct() {
-		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Displays dealers cars', 'cardealer'));
+		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Vehículos vendedores', 'cardealer'));
 		parent::__construct(__CLASS__, esc_html__('TMM Car Dealers Cars', 'cardealer'), $settings);
 		$this->defaults = array(
-			'title' => esc_html__('Dealers Cars', 'cardealer'),
+			'title' => esc_html__('Vehículos vendedores', 'cardealer'),
 			'order' => 'random',
 			'user_number' => 5,
 			'packet' => 0
@@ -385,10 +385,10 @@ class ThemeMakers_App_Cardealer_Dealers extends WP_Widget
 	public $defaults;
 
 	function __construct() {
-		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Outputs list of dealers', 'cardealer'));
-		parent::__construct(__CLASS__, esc_html__('TMM Car Dealers', 'cardealer'), $settings);
+		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Desplegar listado de vendedores', 'cardealer'));
+		parent::__construct(__CLASS__, esc_html__('Vehículos vendedores', 'cardealer'), $settings);
 		$this->defaults = array(
-			'title' => esc_html__('Dealers', 'cardealer'),
+			'title' => esc_html__('Vendedores', 'cardealer'),
 			'order' => 'random',
 			'user_number' => 5,
 			'dealer_type' => 0,
@@ -438,9 +438,9 @@ class ThemeMakers_App_Cars extends WP_Widget {
 
 	function __construct() {
 		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Extended Car Widget displays cars by different options.', 'cardealer'));
-		parent::__construct(__CLASS__, esc_html__('TMM Cars', 'cardealer'), $settings);
+		parent::__construct(__CLASS__, esc_html__('Vehículos', 'cardealer'), $settings);
 		$this->defaults = array(
-			'title' => esc_html__('Cars', 'cardealer'),
+			'title' => esc_html__('Vehículos', 'cardealer'),
 			'post_number' => 3,
 			'show_only_featured_cars' => 'false',
 			'order' => 'DESC',
@@ -479,11 +479,11 @@ class ThemeMakers_LoanCalculator_Widget extends WP_Widget {
 	public $defaults;
 
 	function __construct() {
-		$settings = array('classname' => __CLASS__, 'description' => esc_html__('CarDealer\'s Loan Calculator widget', 'cardealer'));
-		parent::__construct(__CLASS__, esc_html__('TMM Loan Calculator', 'cardealer'), $settings);
+		$settings = array('classname' => __CLASS__, 'description' => esc_html__('Calculadora de credito widget', 'cardealer'));
+		parent::__construct(__CLASS__, esc_html__('Calculadora de crédito', 'cardealer'), $settings);
 		$this->defaults = array(
-			'title' => 'Loan Calculator',
-			'loan_amount' => 15000,
+			'title' => 'Calculadora de crédito',
+			'loan_amount' => 2000000,
 			'interest_rate' => 3,
 			'num_format' => 'true',
 			'number_of_years' => 4,
