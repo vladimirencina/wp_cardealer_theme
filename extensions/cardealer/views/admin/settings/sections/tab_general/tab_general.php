@@ -693,9 +693,9 @@ $child_sections['add_new_page'] = array(
 			'items' => array(
 				'licence_text' => array(
 					'type' => 'textarea',
-					'default_value' => "By accessing or using  Car Dealer services, such as posting your car advertisement with your personal information on our website you agree to the collection, use and disclosure of your personal information in the legal proper manner",
-					'title' => esc_html__('Licence text', 'cardealer'),
-					'description' => esc_html__("Licence text", 'cardealer'),
+					'default_value' => "Autorizo el uso de la información especificada en la pagina mercadomotores.cl para que sea utilizada de la forma especificada en la página",
+					'title' => esc_html__('Autorización', 'cardealer'),
+					'description' => esc_html__("Autorización", 'cardealer'),
 					'css_class' => 'wide',
 					'show_title' => false
 				)
@@ -705,7 +705,7 @@ $child_sections['add_new_page'] = array(
 );
 
 $child_sections['single_car_page'] = array(
-	'name' => esc_html__('Single Car Page', 'cardealer'),
+	'name' => esc_html__('Página de un solo vehículo', 'cardealer'),
 	'sections' => array(
 
 		'block1' => array(
